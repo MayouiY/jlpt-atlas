@@ -1,0 +1,10 @@
+.git
+.github
+.claude
+.cache
+node_modules
+dist
+coverage
+docs
+tests
+*.log

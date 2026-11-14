@@ -1,0 +1,46 @@
+name: CI / Deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# 同一分支的运行排队执行，main 上的部署不会互相打断；PR 上有新提交时取消旧的检查。
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  verify:
+    name: Typecheck, test, build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      # 用 Coolify 部署时用的同一个 Dockerfile 构建，提前发现镜像构建问题。
+      - name: Build image
+        run: docker build --tag jlpt-atlas:ci .
+
+  deploy:
+    name: Deploy to Coolify
+    needs: verify
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    # 默认用 GitHub 托管的 runner；Coolify 不在公网时，把仓库变量 DEPLOY_RUNNER 设成自托管 runner 的标签。
+    runs-on: ${{ vars.DEPLOY_RUNNER || 'ubuntu-latest' }}
+    steps:
+      - uses: actions/checkout@v5
+      - name: Trigger deployment and wait for it
+        run: bash .github/scripts/coolify-deploy.sh
+        env:
+          COOLIFY_WEBHOOK: ${{ secrets.COOLIFY_WEBHOOK }}
+          COOLIFY_TOKEN: ${{ secrets.COOLIFY_TOKEN }}

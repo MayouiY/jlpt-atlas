@@ -104,4 +104,8 @@ npm test
 npm run build
 ```
 
+## 部署
+
+推送到 `main` 后，GitHub Actions 会先跑类型检查、测试和镜像构建，通过后触发 Coolify 重新部署。需要的一次性配置（Coolify 应用、两个仓库 Secret）见 [docs/deploy.md](docs/deploy.md)。
+
 技术栈：Vite + React + TypeScript，sql.js，ECharts；建库脚本用 tsx 运行，词形分析用 kuromoji。
