@@ -1,29 +1,28 @@
 #!/usr/bin/env bash
 # 触发 Coolify 部署并等待结果。
 #
-# 需要的环境变量：
-#   COOLIFY_WEBHOOK  应用的 Deploy Webhook，形如 https://<coolify>/api/v1/deploy?uuid=<应用 UUID>&force=false
-#   COOLIFY_TOKEN    Coolify API token（权限：deploy；另有 read 时才能跟踪部署结果）
+# 需要的环境变量（名字和 Madoshi-Idle 仓库的部署流程保持一致）：
+#   COOLIFY_URL       Coolify 的地址，例如 https://coolify.example.com（不带末尾的 /）
+#   COOLIFY_APP_UUID  Coolify 里这个应用的 UUID
+#   COOLIFY_TOKEN     Coolify API token（权限：deploy；另有 read 时才能跟踪部署结果）
 # 可选：
-#   COOLIFY_TIMEOUT  等待部署完成的秒数，默认 900
-#   COOLIFY_POLL     轮询间隔秒数，默认 10
+#   COOLIFY_TIMEOUT   等待部署完成的秒数，默认 1500
+#   COOLIFY_POLL      轮询间隔秒数，默认 10
 set -euo pipefail
 
-timeout="${COOLIFY_TIMEOUT:-900}"
+timeout="${COOLIFY_TIMEOUT:-1500}"
 poll="${COOLIFY_POLL:-10}"
 
-if [ -z "${COOLIFY_WEBHOOK:-}" ] || [ -z "${COOLIFY_TOKEN:-}" ]; then
-  echo "::error::没有配置 COOLIFY_WEBHOOK / COOLIFY_TOKEN 这两个仓库 Secret，无法部署。配置方法见 docs/deploy.md。"
+missing=""
+[ -n "${COOLIFY_URL:-}" ] || missing="$missing 变量 COOLIFY_URL"
+[ -n "${COOLIFY_APP_UUID:-}" ] || missing="$missing 变量 COOLIFY_APP_UUID"
+[ -n "${COOLIFY_TOKEN:-}" ] || missing="$missing Secret COOLIFY_TOKEN"
+if [ -n "$missing" ]; then
+  echo "::error::仓库里还没有配置：${missing# }，无法部署。配置方法见 docs/deploy.md。"
   exit 1
 fi
-case "$COOLIFY_WEBHOOK" in
-  */api/v1/deploy\?*) ;;
-  *)
-    echo "::error::COOLIFY_WEBHOOK 的格式不对，应为 https://<coolify>/api/v1/deploy?uuid=<应用 UUID>&force=false"
-    exit 1
-    ;;
-esac
-base="${COOLIFY_WEBHOOK%%/api/v1/deploy\?*}"
+base="${COOLIFY_URL%/}"
+webhook="${base}/api/v1/deploy?uuid=${COOLIFY_APP_UUID}&force=false"
 
 body="$(mktemp)"
 trap 'rm -f "$body"' EXIT
@@ -42,19 +41,19 @@ request() {
 message() { jq -r '.message // empty' "$body" 2>/dev/null || true; }
 
 # 新版 Coolify 的 /deploy 只接受 POST，旧版只接受 GET：先 POST，收到 405 再退回 GET。
-code="$(request POST "$COOLIFY_WEBHOOK")"
+code="$(request POST "$webhook")"
 if [ "$code" = "405" ]; then
-  code="$(request GET "$COOLIFY_WEBHOOK")"
+  code="$(request GET "$webhook")"
 fi
 
 case "$code" in
   2??) ;;
   000)
-    echo "::error::连不上 Coolify。GitHub 托管的 runner 只能访问公网地址；如果 Coolify 只在内网或本机，请参考 docs/deploy.md 改用自托管 runner。"
+    echo "::error::连不上 Coolify。GitHub 托管的 runner 只能访问公网地址，COOLIFY_URL 要填经隧道暴露的公网地址，或者参考 docs/deploy.md 改用自托管 runner。"
     exit 1
     ;;
   3??)
-    echo "::error::COOLIFY_WEBHOOK 被重定向了（HTTP ${code}），请填重定向后的最终地址（通常是把 http 换成 https）。"
+    echo "::error::COOLIFY_URL 被重定向了（HTTP ${code}），请填重定向后的最终地址（通常是把 http 换成 https）。"
     exit 1
     ;;
   401 | 403)

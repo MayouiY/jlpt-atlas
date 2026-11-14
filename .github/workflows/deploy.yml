@@ -35,12 +35,13 @@ jobs:
     name: Deploy to Coolify
     needs: verify
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-    # 默认用 GitHub 托管的 runner；Coolify 不在公网时，把仓库变量 DEPLOY_RUNNER 设成自托管 runner 的标签。
-    runs-on: ${{ vars.DEPLOY_RUNNER || 'ubuntu-latest' }}
+    # 默认用 GitHub 托管的 runner；Coolify 不在公网时，把仓库变量 COOLIFY_RUNNER 设成自托管 runner 的标签。
+    runs-on: ${{ vars.COOLIFY_RUNNER || 'ubuntu-latest' }}
     steps:
       - uses: actions/checkout@v5
       - name: Trigger deployment and wait for it
         run: bash .github/scripts/coolify-deploy.sh
         env:
-          COOLIFY_WEBHOOK: ${{ secrets.COOLIFY_WEBHOOK }}
+          COOLIFY_URL: ${{ vars.COOLIFY_URL }}
+          COOLIFY_APP_UUID: ${{ vars.COOLIFY_APP_UUID }}
           COOLIFY_TOKEN: ${{ secrets.COOLIFY_TOKEN }}
