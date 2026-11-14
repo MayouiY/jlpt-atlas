@@ -1,0 +1,1203 @@
+{
+ "level": "N1",
+ "session": "2012-12",
+ "sources": {
+  "language": "jlptpracticetest",
+  "listening": "mojitest"
+ },
+ "sourceUrls": {
+  "jlptpracticetest": "https://www.jlptpracticetest.com/n1/201212",
+  "mojitest": "https://test.mojidict.com/paper/analysis/SUIubgAIlN--2012%E5%B9%B412%E6%9C%88N1"
+ },
+ "structure": [
+  {
+   "part": "language",
+   "mondaiNo": 1,
+   "type": "kanji_reading",
+   "items": 6
+  },
+  {
+   "part": "language",
+   "mondaiNo": 2,
+   "type": "context",
+   "items": 7
+  },
+  {
+   "part": "language",
+   "mondaiNo": 3,
+   "type": "paraphrase",
+   "items": 6
+  },
+  {
+   "part": "language",
+   "mondaiNo": 4,
+   "type": "usage",
+   "items": 6
+  },
+  {
+   "part": "language",
+   "mondaiNo": 5,
+   "type": "grammar_form",
+   "items": 10
+  },
+  {
+   "part": "language",
+   "mondaiNo": 6,
+   "type": "sentence_composition",
+   "items": 5
+  },
+  {
+   "part": "language",
+   "mondaiNo": 7,
+   "type": "text_grammar",
+   "items": 5
+  },
+  {
+   "part": "language",
+   "mondaiNo": 8,
+   "type": "reading_short",
+   "items": 4
+  },
+  {
+   "part": "language",
+   "mondaiNo": 9,
+   "type": "reading_mid",
+   "items": 9
+  },
+  {
+   "part": "language",
+   "mondaiNo": 10,
+   "type": "reading_long",
+   "items": 4
+  },
+  {
+   "part": "language",
+   "mondaiNo": 11,
+   "type": "reading_integrated",
+   "items": 2
+  },
+  {
+   "part": "language",
+   "mondaiNo": 12,
+   "type": "reading_thematic",
+   "items": 4
+  },
+  {
+   "part": "language",
+   "mondaiNo": 13,
+   "type": "info_retrieval",
+   "items": 2
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 1,
+   "type": "listen_task",
+   "items": 6
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 2,
+   "type": "listen_point",
+   "items": 7
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 3,
+   "type": "listen_summary",
+   "items": 5
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 4,
+   "type": "listen_quick",
+   "items": 14
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 5,
+   "type": "listen_integrated",
+   "items": 4
+  }
+ ],
+ "questions": [
+  {
+   "part": "language",
+   "mondaiNo": 1,
+   "type": "kanji_reading",
+   "number": "1",
+   "answerIndex": 1,
+   "target": "枠",
+   "options": [
+    "かべ",
+    "わく",
+    "みぞ",
+    "ふち"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 1,
+   "type": "kanji_reading",
+   "number": "2",
+   "answerIndex": 2,
+   "target": "網羅",
+   "options": [
+    "ぼうろう",
+    "もうろう",
+    "もうら",
+    "ぼうら"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 1,
+   "type": "kanji_reading",
+   "number": "3",
+   "answerIndex": 3,
+   "target": "名誉",
+   "options": [
+    "めいゆう",
+    "めいゆ",
+    "めいよう",
+    "めいよ"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 1,
+   "type": "kanji_reading",
+   "number": "4",
+   "answerIndex": 2,
+   "target": "費やした",
+   "options": [
+    "ひやした",
+    "つやした",
+    "ついやした",
+    "ひいやした"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 1,
+   "type": "kanji_reading",
+   "number": "5",
+   "answerIndex": 1,
+   "target": "由緒",
+   "options": [
+    "ゆうしょ",
+    "ゆいしょ",
+    "ゆうしょう",
+    "ゆいしょう"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 1,
+   "type": "kanji_reading",
+   "number": "6",
+   "answerIndex": 3,
+   "target": "手際",
+   "options": [
+    "しゅざい",
+    "てきわ",
+    "しゅさい",
+    "てぎわ"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 2,
+   "type": "context",
+   "number": "7",
+   "answerIndex": 3,
+   "options": [
+    "瞬時に",
+    "迅速に",
+    "即刻",
+    "急遽"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 2,
+   "type": "context",
+   "number": "8",
+   "answerIndex": 1,
+   "options": [
+    "言い残して",
+    "言い張って",
+    "言い渡して",
+    "言い放って"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 2,
+   "type": "context",
+   "number": "9",
+   "answerIndex": 1,
+   "options": [
+    "同調",
+    "妥協",
+    "和解",
+    "融合"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 2,
+   "type": "context",
+   "number": "10",
+   "answerIndex": 0,
+   "options": [
+    "寄与",
+    "普及",
+    "供与",
+    "波及"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 2,
+   "type": "context",
+   "number": "11",
+   "answerIndex": 3,
+   "options": [
+    "人込み",
+    "人波",
+    "人通り",
+    "人出"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 2,
+   "type": "context",
+   "number": "12",
+   "answerIndex": 0,
+   "options": [
+    "リストアップ",
+    "エントリー",
+    "ストック",
+    "コーディネート"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 2,
+   "type": "context",
+   "number": "13",
+   "answerIndex": 1,
+   "options": [
+    "弱って",
+    "和らいで",
+    "薄まって",
+    "安らいで"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 3,
+   "type": "paraphrase",
+   "number": "14",
+   "answerIndex": 0,
+   "target": "当面",
+   "options": [
+    "しばらくは",
+    "直接は",
+    "まさか",
+    "大して"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 3,
+   "type": "paraphrase",
+   "number": "15",
+   "answerIndex": 1,
+   "target": "スケール",
+   "options": [
+    "方針",
+    "規模",
+    "目的",
+    "意義"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 3,
+   "type": "paraphrase",
+   "number": "16",
+   "answerIndex": 3,
+   "target": "しきりに",
+   "options": [
+    "小さく",
+    "時々",
+    "大きく",
+    "何度も"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 3,
+   "type": "paraphrase",
+   "number": "17",
+   "answerIndex": 2,
+   "target": "先方",
+   "options": [
+    "専門家",
+    "全員",
+    "相手",
+    "上司"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 3,
+   "type": "paraphrase",
+   "number": "18",
+   "answerIndex": 0,
+   "target": "けなされる",
+   "options": [
+    "悪く言われる",
+    "高く評価される",
+    "反対される",
+    "喜ばれる"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 3,
+   "type": "paraphrase",
+   "number": "19",
+   "answerIndex": 2,
+   "target": "おっくうだ",
+   "options": [
+    "平気だ",
+    "愉快だ",
+    "面倒だ",
+    "退屈だ"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 4,
+   "type": "usage",
+   "number": "20",
+   "answerIndex": 1,
+   "target": "広大"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 4,
+   "type": "usage",
+   "number": "21",
+   "answerIndex": 0,
+   "target": "秘める"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 4,
+   "type": "usage",
+   "number": "22",
+   "answerIndex": 3,
+   "target": "発散"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 4,
+   "type": "usage",
+   "number": "23",
+   "answerIndex": 0,
+   "target": "仕業"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 4,
+   "type": "usage",
+   "number": "24",
+   "answerIndex": 2,
+   "target": "無造作"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 4,
+   "type": "usage",
+   "number": "25",
+   "answerIndex": 2,
+   "target": "総じて"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 5,
+   "type": "grammar_form",
+   "number": "26",
+   "answerIndex": 2,
+   "options": [
+    "に沿って",
+    "に基づき",
+    "にともない",
+    "にこたえて"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 5,
+   "type": "grammar_form",
+   "number": "27",
+   "answerIndex": 0,
+   "options": [
+    "上がり",
+    "差しあげ",
+    "願い",
+    "見え"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 5,
+   "type": "grammar_form",
+   "number": "28",
+   "answerIndex": 0,
+   "options": [
+    "も",
+    "で",
+    "でも",
+    "まで"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 5,
+   "type": "grammar_form",
+   "number": "29",
+   "answerIndex": 2,
+   "options": [
+    "帰るべし",
+    "帰るべき",
+    "帰るべく",
+    "帰るべからず"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 5,
+   "type": "grammar_form",
+   "number": "30",
+   "answerIndex": 3,
+   "options": [
+    "雨とも雪とも",
+    "雨でもなく雪でもなく",
+    "雨というか雪というか",
+    "雨だろうと雪だろうと"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 5,
+   "type": "grammar_form",
+   "number": "31",
+   "answerIndex": 1,
+   "options": [
+    "に思って",
+    "を思って",
+    "に思っても",
+    "を思っても"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 5,
+   "type": "grammar_form",
+   "number": "32",
+   "answerIndex": 1,
+   "options": [
+    "疑いようがないものを",
+    "疑いようがないものの",
+    "疑わないことはないものを",
+    "疑わないことはないものの"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 5,
+   "type": "grammar_form",
+   "number": "33",
+   "answerIndex": 3,
+   "options": [
+    "に言わせていれば",
+    "から言わせてやれば",
+    "に言わせてあげれば",
+    "から言わせてもらえば"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 5,
+   "type": "grammar_form",
+   "number": "34",
+   "answerIndex": 0,
+   "options": [
+    "間に合いそうになかったら",
+    "間に合いそうになかったから",
+    "間に合っていなかったのだから",
+    "間に合っていなかったのだったら"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 5,
+   "type": "grammar_form",
+   "number": "35",
+   "answerIndex": 3,
+   "options": [
+    "というでしょうから",
+    "といいませんか",
+    "というでしょうが",
+    "といいましょうか"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 6,
+   "type": "sentence_composition",
+   "number": "36",
+   "answerIndex": 2
+  },
+  {
+   "part": "language",
+   "mondaiNo": 6,
+   "type": "sentence_composition",
+   "number": "37",
+   "answerIndex": 1
+  },
+  {
+   "part": "language",
+   "mondaiNo": 6,
+   "type": "sentence_composition",
+   "number": "38",
+   "answerIndex": 3,
+   "grammarHits": [
+    "ばこそ"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 6,
+   "type": "sentence_composition",
+   "number": "39",
+   "answerIndex": 2
+  },
+  {
+   "part": "language",
+   "mondaiNo": 6,
+   "type": "sentence_composition",
+   "number": "40",
+   "answerIndex": 0,
+   "grammarHits": [
+    "にあって"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 7,
+   "type": "text_grammar",
+   "number": "41",
+   "answerIndex": 2,
+   "options": [
+    "下町",
+    "盆踊り",
+    "大人",
+    "彼女"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 7,
+   "type": "text_grammar",
+   "number": "42",
+   "answerIndex": 1,
+   "options": [
+    "その年の",
+    "そういう",
+    "あの町の",
+    "あれのような"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 7,
+   "type": "text_grammar",
+   "number": "43",
+   "answerIndex": 0,
+   "options": [
+    "そして",
+    "なにしろ",
+    "あるいは",
+    "おそらく"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 7,
+   "type": "text_grammar",
+   "number": "44",
+   "answerIndex": 3,
+   "options": [
+    "思わせたかった",
+    "思わないだろう",
+    "思われてもいい",
+    "思わされた"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 7,
+   "type": "text_grammar",
+   "number": "45",
+   "answerIndex": 1,
+   "options": [
+    "するわけだ",
+    "いうものである",
+    "するかどうか",
+    "いおうとしない"
+   ]
+  },
+  {
+   "part": "language",
+   "mondaiNo": 8,
+   "type": "reading_short",
+   "number": "46",
+   "answerIndex": 1,
+   "skill": "r:explanation"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 8,
+   "type": "reading_short",
+   "number": "47",
+   "answerIndex": 1,
+   "skill": "r:detail"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 8,
+   "type": "reading_short",
+   "number": "48",
+   "answerIndex": 2,
+   "skill": "r:explanation"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 8,
+   "type": "reading_short",
+   "number": "49",
+   "answerIndex": 2,
+   "skill": "r:author_claim"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 9,
+   "type": "reading_mid",
+   "number": "50",
+   "answerIndex": 0,
+   "skill": "r:underline"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 9,
+   "type": "reading_mid",
+   "number": "51",
+   "answerIndex": 1,
+   "skill": "r:underline"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 9,
+   "type": "reading_mid",
+   "number": "52",
+   "answerIndex": 1,
+   "skill": "r:explanation"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 9,
+   "type": "reading_mid",
+   "number": "53",
+   "answerIndex": 3,
+   "skill": "r:reason"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 9,
+   "type": "reading_mid",
+   "number": "54",
+   "answerIndex": 1,
+   "skill": "r:underline",
+   "altAnswerIndex": 2
+  },
+  {
+   "part": "language",
+   "mondaiNo": 9,
+   "type": "reading_mid",
+   "number": "55",
+   "answerIndex": 1,
+   "skill": "r:reason"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 9,
+   "type": "reading_mid",
+   "number": "56",
+   "answerIndex": 2,
+   "skill": "r:reason"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 9,
+   "type": "reading_mid",
+   "number": "57",
+   "answerIndex": 0,
+   "skill": "r:underline"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 9,
+   "type": "reading_mid",
+   "number": "58",
+   "answerIndex": 2,
+   "skill": "r:explanation"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 10,
+   "type": "reading_long",
+   "number": "59",
+   "answerIndex": 3,
+   "skill": "r:underline"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 10,
+   "type": "reading_long",
+   "number": "60",
+   "answerIndex": 0,
+   "skill": "r:reason"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 10,
+   "type": "reading_long",
+   "number": "61",
+   "answerIndex": 0,
+   "skill": "r:explanation"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 10,
+   "type": "reading_long",
+   "number": "62",
+   "answerIndex": 2,
+   "skill": "r:author_claim"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 11,
+   "type": "reading_integrated",
+   "number": "63",
+   "answerIndex": 3,
+   "skill": "r:compare_ab"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 11,
+   "type": "reading_integrated",
+   "number": "64",
+   "answerIndex": 0,
+   "skill": "r:compare_ab"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 12,
+   "type": "reading_thematic",
+   "number": "65",
+   "answerIndex": 3,
+   "skill": "r:underline"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 12,
+   "type": "reading_thematic",
+   "number": "66",
+   "answerIndex": 0,
+   "skill": "r:explanation"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 12,
+   "type": "reading_thematic",
+   "number": "67",
+   "answerIndex": 3,
+   "skill": "r:explanation"
+  },
+  {
+   "part": "language",
+   "mondaiNo": 12,
+   "type": "reading_thematic",
+   "number": "68",
+   "answerIndex": 3,
+   "skill": "r:underline"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 1,
+   "type": "listen_task",
+   "number": "1番",
+   "answerIndex": 1,
+   "skill": "l:task_method",
+   "scene": "s:other",
+   "image": true
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 1,
+   "type": "listen_task",
+   "number": "2番",
+   "answerIndex": 1,
+   "skill": "l:task_first",
+   "scene": "s:school"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 1,
+   "type": "listen_task",
+   "number": "3番",
+   "answerIndex": 0,
+   "skill": "l:task_first",
+   "scene": "s:office"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 1,
+   "type": "listen_task",
+   "number": "4番",
+   "answerIndex": 2,
+   "skill": "l:task_method",
+   "scene": "s:school"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 1,
+   "type": "listen_task",
+   "number": "5番",
+   "answerIndex": 2,
+   "skill": "l:task_method",
+   "scene": "s:office"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 1,
+   "type": "listen_task",
+   "number": "6番",
+   "answerIndex": 1,
+   "skill": "l:task_first",
+   "scene": "s:phone"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 2,
+   "type": "listen_point",
+   "number": "1番",
+   "answerIndex": 0,
+   "skill": "l:point_reason",
+   "scene": "s:office"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 2,
+   "type": "listen_point",
+   "number": "2番",
+   "answerIndex": 1,
+   "skill": "l:point_content",
+   "scene": "s:other"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 2,
+   "type": "listen_point",
+   "number": "3番",
+   "answerIndex": 3,
+   "skill": "l:point_reason",
+   "scene": "s:other"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 2,
+   "type": "listen_point",
+   "number": "4番",
+   "answerIndex": 0,
+   "skill": "l:point_decision",
+   "scene": "s:home"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 2,
+   "type": "listen_point",
+   "number": "5番",
+   "answerIndex": 2,
+   "skill": "l:point_most",
+   "scene": "s:media"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 2,
+   "type": "listen_point",
+   "number": "6番",
+   "answerIndex": 1,
+   "skill": "l:point_content",
+   "scene": "s:office"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 2,
+   "type": "listen_point",
+   "number": "7番",
+   "answerIndex": 2,
+   "skill": "l:point_reason",
+   "scene": "s:media"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 3,
+   "type": "listen_summary",
+   "number": "1番",
+   "answerIndex": 1,
+   "skill": "l:sum_theme",
+   "scene": "s:office"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 3,
+   "type": "listen_summary",
+   "number": "2番",
+   "answerIndex": 2,
+   "skill": "l:sum_claim",
+   "scene": "s:public"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 3,
+   "type": "listen_summary",
+   "number": "3番",
+   "answerIndex": 1,
+   "skill": "l:sum_theme",
+   "scene": "s:lecture"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 3,
+   "type": "listen_summary",
+   "number": "4番",
+   "answerIndex": 3,
+   "skill": "l:sum_theme",
+   "scene": "s:office"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 3,
+   "type": "listen_summary",
+   "number": "5番",
+   "answerIndex": 1,
+   "skill": "l:sum_gist",
+   "scene": "s:media"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 4,
+   "type": "listen_quick",
+   "number": "1番",
+   "answerIndex": 0,
+   "skill": "l:quick_response",
+   "func": "f:apology"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 4,
+   "type": "listen_quick",
+   "number": "2番",
+   "answerIndex": 1,
+   "skill": "l:quick_response",
+   "func": "f:question"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 4,
+   "type": "listen_quick",
+   "number": "3番",
+   "answerIndex": 2,
+   "skill": "l:quick_response",
+   "func": "f:statement",
+   "grammarHits": [
+    "敬語・申す"
+   ]
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 4,
+   "type": "listen_quick",
+   "number": "4番",
+   "answerIndex": 2,
+   "skill": "l:quick_response",
+   "func": "f:statement"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 4,
+   "type": "listen_quick",
+   "number": "5番",
+   "answerIndex": 2,
+   "skill": "l:quick_response",
+   "func": "f:complaint",
+   "grammarHits": [
+    "んじゃなかった"
+   ]
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 4,
+   "type": "listen_quick",
+   "number": "6番",
+   "answerIndex": 0,
+   "skill": "l:quick_response",
+   "func": "f:statement",
+   "grammarHits": [
+    "敬語・お〜になる"
+   ]
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 4,
+   "type": "listen_quick",
+   "number": "7番",
+   "answerIndex": 0,
+   "skill": "l:quick_response",
+   "func": "f:hearsay"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 4,
+   "type": "listen_quick",
+   "number": "8番",
+   "answerIndex": 1,
+   "skill": "l:quick_response",
+   "func": "f:statement",
+   "grammarHits": [
+    "きり",
+    "とばかりに"
+   ]
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 4,
+   "type": "listen_quick",
+   "number": "9番",
+   "answerIndex": 2,
+   "skill": "l:quick_response",
+   "func": "f:statement"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 4,
+   "type": "listen_quick",
+   "number": "10番",
+   "answerIndex": 0,
+   "skill": "l:quick_response",
+   "func": "f:hearsay"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 4,
+   "type": "listen_quick",
+   "number": "11番",
+   "answerIndex": 0,
+   "skill": "l:quick_response",
+   "func": "f:statement",
+   "grammarHits": [
+    "なんとか"
+   ]
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 4,
+   "type": "listen_quick",
+   "number": "12番",
+   "answerIndex": 1,
+   "skill": "l:quick_response",
+   "func": "f:statement"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 4,
+   "type": "listen_quick",
+   "number": "13番",
+   "answerIndex": 2,
+   "skill": "l:quick_response",
+   "func": "f:hearsay"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 4,
+   "type": "listen_quick",
+   "number": "14番",
+   "answerIndex": 1,
+   "skill": "l:quick_response",
+   "func": "f:statement",
+   "grammarHits": [
+    "きり"
+   ]
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 5,
+   "type": "listen_integrated",
+   "number": "1番",
+   "answerIndex": 2,
+   "skill": "l:int_choice",
+   "scene": "s:shop"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 5,
+   "type": "listen_integrated",
+   "number": "2番",
+   "answerIndex": 2,
+   "skill": "l:int_compare",
+   "scene": "s:office"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 5,
+   "type": "listen_integrated",
+   "number": "質問1",
+   "answerIndex": 1,
+   "skill": "l:int_choice",
+   "scene": "s:other"
+  },
+  {
+   "part": "listening",
+   "mondaiNo": 5,
+   "type": "listen_integrated",
+   "number": "質問2",
+   "answerIndex": 0,
+   "skill": "l:int_choice",
+   "scene": "s:other"
+  }
+ ],
+ "answerCheck": {
+  "compared": 68,
+  "agreed": 67,
+  "disagreed": [
+   "54"
+  ]
+ }
+}

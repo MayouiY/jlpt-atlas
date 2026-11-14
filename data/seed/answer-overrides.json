@@ -1,0 +1,4 @@
+{
+  "_说明": "两个来源答案不一致时默认采用 MOJiTest；此处列出经人工判断应采用 jlptpracticetest 答案的题目（键：级别-场次#题号）。",
+  "N2-2017-07#26": "jlptpracticetest"
+}
